@@ -1,10 +1,10 @@
 var attProgram = 0;
 var bgBrightness = 0;
 
-var $program1light = '<iframe src="http://www.startupautobahn.github.io/widgets/sa_widget_p1_light.html" style="border: none;" name="sa_widget_p1_light" scrolling="no" frameborder="0" marginheight="0px" marginwidth="0px" height="43px" width="200px" allowfullscreen></iframe>'
-var $program1dark = '<iframe src="http://www.startupautobahn.github.io/widgets/sa_widget_p1_dark.html" style="border: none;" name="sa_widget_p1_dark" scrolling="no" frameborder="0" marginheight="0px" marginwidth="0px" height="43px" width="200px" allowfullscreen></iframe>'
-var $program2light = '<iframe src="http://www.startupautobahn.github.io/widgets/sa_widget_p2_light.html" style="border: none;" name="sa_widget_p2_light" scrolling="no" frameborder="0" marginheight="0px" marginwidth="0px" height="43px" width="200px" allowfullscreen></iframe>'
-var $program2dark = '<iframe src="http://www.startupautobahn.github.io/widgets/sa_widget_p2_dark.html" style="border: none;" name="sa_widget_p2_dark" scrolling="no" frameborder="0" marginheight="0px" marginwidth="0px" height="43px" width="200px" allowfullscreen></iframe>'
+var $program1light = '<iframe src="http://startupautobahn.github.io/widgets/sa_widget_p1_light.html" style="border: none;" name="sa_widget_p1_light" scrolling="no" frameborder="0" marginheight="0px" marginwidth="0px" height="43px" width="200px" allowfullscreen></iframe>'
+var $program1dark = '<iframe src="http://startupautobahn.github.io/widgets/sa_widget_p1_dark.html" style="border: none;" name="sa_widget_p1_dark" scrolling="no" frameborder="0" marginheight="0px" marginwidth="0px" height="43px" width="200px" allowfullscreen></iframe>'
+var $program2light = '<iframe src="http://startupautobahn.github.io/widgets/sa_widget_p2_light.html" style="border: none;" name="sa_widget_p2_light" scrolling="no" frameborder="0" marginheight="0px" marginwidth="0px" height="43px" width="200px" allowfullscreen></iframe>'
+var $program2dark = '<iframe src="http://startupautobahn.github.io/widgets/sa_widget_p2_dark.html" style="border: none;" name="sa_widget_p2_dark" scrolling="no" frameborder="0" marginheight="0px" marginwidth="0px" height="43px" width="200px" allowfullscreen></iframe>'
 
 $(document).ready(function() {
   $('a').click(function() {
