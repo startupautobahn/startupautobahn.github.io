@@ -31,6 +31,7 @@ $(document).ready(function() {
         $('#results').text("")
         break;
     };
+    $('#highlight').attr('hidden', false);
   });
   $('#results').focus(function() {
     var $this = $(this);
