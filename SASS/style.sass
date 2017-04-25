@@ -68,14 +68,20 @@ button
   width: 100%
 
 #main
-  position: relative
+  text-align: center
+  white-space: nowrap
+  &:before
+    content: ''
+    display: inline-block
+    height: 100%
+    vertical-align: middle
+    margin-right: -0.25em
 
 #container
-  position: absolute
-  top: 50%
-  transform: translateY(-50%)
   width: 35%
   margin: auto
+  display: inline-block
+  vertical-align: middle
   @media screen and (max-width: 1024px)
     width: 50%
   @media screen and (max-width: 612px)
