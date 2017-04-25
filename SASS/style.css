@@ -59,18 +59,14 @@ button {
 .dropdown-menu {
   width: 100%; }
 
+#main {
+  position: relative; }
+
 #container {
-  position: relative;
+  position: absolute;
   top: 50%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
   transform: translateY(-50%);
   width: 35%;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
   margin: auto; }
   @media screen and (max-width: 1024px) {
     #container {

@@ -4,13 +4,6 @@ $col-text: #273246
 $col-green: #2CC67B
 $font-stack: OpenSans, SansSerif
 
-@mixin vertical-align($position: relative)
-  position: $position
-  top: 50%
-  -webkit-transform: translateY(-50%)
-  -ms-transform: translateY(-50%)
-  transform: translateY(-50%)
-
 body
   font-family: $font-stack
 
@@ -74,14 +67,14 @@ button
 .dropdown-menu
   width: 100%
 
+#main
+  position: relative
+
 #container
-  @include vertical-align()
-  width: 35%
   position: absolute
-  top: 0
-  bottom: 0
-  left: 0
-  right: 0
+  top: 50%
+  transform: translateY(-50%)
+  width: 35%
   margin: auto
   @media screen and (max-width: 1024px)
     width: 50%

@@ -12,54 +12,56 @@
     <script type="text/javascript" src="scripts/script.js"></script>
   </head>
   <body>
-    <div id="container">
-      <div id="header">
-          <p id="headline">STARTUP AUTOBAHN MEMBER WIDGET</p>
-      </div>
-      <div id="content">
-        <div id="info-text">
-          <p>Let the world know that you are member of STARTUP AUTOBAHN by embedding the new STARTUP AUTOBAHN Member Widget on your website.</p>
+    <div id=main>
+      <div id="container">
+        <div id="header">
+            <p id="headline">STARTUP AUTOBAHN MEMBER WIDGET</p>
         </div>
-        <div class="spacer-large"></div>
-        <hr />
-        <div class="spacer-large"></div>
-        <div id="selection-program">
-          <p class="desc">SELECT THE PROGRAM YOU ATTENDED</p>
-          <div class="btn-group" id="program-select">
-            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Attended Program <span class="caret"></span>
-            </button>
-            <ul class="dropdown-menu">
-              <li><a href="#" id="prog1" onclick="attProgram = 1;">Program 1</a></li>
-              <li><a href="#" id="prog2" onclick="attProgram = 2;">Program 2</a></li>
-            </ul>
+        <div id="content">
+          <div id="info-text">
+            <p>Let the world know that you are member of STARTUP AUTOBAHN by embedding the new STARTUP AUTOBAHN Member Widget on your website.</p>
+          </div>
+          <div class="spacer-large"></div>
+          <hr />
+          <div class="spacer-large"></div>
+          <div id="selection-program">
+            <p class="desc">SELECT THE PROGRAM YOU ATTENDED</p>
+            <div class="btn-group" id="program-select">
+              <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Attended Program <span class="caret"></span>
+              </button>
+              <ul class="dropdown-menu">
+                <li><a href="#" id="prog1" onclick="attProgram = 1;">Program 1</a></li>
+                <li><a href="#" id="prog2" onclick="attProgram = 2;">Program 2</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="spacer-small"></div>
+          <div id="selection-background">
+            <p class="desc">SELECT THE BACKGROUND BRIGHTNESS OF YOUR WEBSITE</p>
+            <div class="btn-group" id="background-select">
+              <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Background Brightness <span class="caret"></span>
+              </button>
+              <ul class="dropdown-menu">
+                <li><a href="#" id="lightBG" onclick="bgBrightness = 1;">Light Background</a></li>
+                <li><a href="#" id="darkBG" onclick="bgBrightness = 2;">Dark Background</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="spacer-large"></div>
+          <button id="generate-btn" disabled="true">GENERATE CODE</button>
+          <div class="spacer-large"></div>
+          <hr />
+          <div class="spacer-large"></div>
+          <div>
+            <p class="desc">COPY THIS CODE TO YOUR WEBSITE</p>
+            <textarea id="results" spellcheck="false"></textarea>
           </div>
         </div>
-        <div class="spacer-small"></div>
-        <div id="selection-background">
-          <p class="desc">SELECT THE BACKGROUND BRIGHTNESS OF YOUR WEBSITE</p>
-          <div class="btn-group" id="background-select">
-            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Background Brightness <span class="caret"></span>
-            </button>
-            <ul class="dropdown-menu">
-              <li><a href="#" id="lightBG" onclick="bgBrightness = 1;">Light Background</a></li>
-              <li><a href="#" id="darkBG" onclick="bgBrightness = 2;">Dark Background</a></li>
-            </ul>
-          </div>
+        <div id="footer">
+          <p>&copy; 2017 by Plug and Play Germany</p>
         </div>
-        <div class="spacer-large"></div>
-        <button id="generate-btn" disabled="true">GENERATE CODE</button>
-        <div class="spacer-large"></div>
-        <hr />
-        <div class="spacer-large"></div>
-        <div>
-          <p class="desc">COPY THIS CODE TO YOUR WEBSITE</p>
-          <textarea id="results" spellcheck="false"></textarea>
-        </div>
-      </div>
-      <div id="footer">
-        <p>&copy; 2017 by Plug and Play Germany</p>
       </div>
     </div>
 
