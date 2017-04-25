@@ -33,7 +33,7 @@ $(document).ready(function() {
     };
     $('#results').animate({border: '#2CC67B'}, 'fast').delay(05).animate({borderColor: '#2CC67B'}, 'slow');
   });
-  $('#results').focus(function() {
+  $('textarea').focus(function() {
     var $this = $(this);
     $this.select();
     $this.mouseup(function() {
