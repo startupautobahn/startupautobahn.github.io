@@ -59,15 +59,12 @@ button {
 .dropdown-menu {
   width: 100%; }
 
-#main {
-  text-align: center;
-  white-space: nowrap; }
-  #main:before {
-    content: "";
-    display: inline-block;
-    height: 100%;
-    vertical-align: middle;
-    margin-right: -0.25em; }
+#main:before {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -0.25em; }
 
 #container {
   width: 35%;
