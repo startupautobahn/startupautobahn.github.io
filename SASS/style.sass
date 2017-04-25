@@ -2,9 +2,14 @@
 $col-grey: #EEEEEE
 $col-text: #273246
 $col-green: #2CC67B
-
 $font-stack: OpenSans, SansSerif
 
+@mixin vertical-align($position: relative)
+  position: $position
+  top: 50%
+  -webkit-transform: translateY(-50%)
+  -ms-transform: translateY(-50%)
+  transform: translateY(-50%)
 
 body
   font-family: $font-stack
@@ -70,10 +75,14 @@ button
   width: 100%
 
 #container
+  @include vertical-align()
   width: 35%
-  position: relative
-  top: 50%
-  transform: translateY(-50%)
+  position: absolute
+  top: 0
+  bottom: 0
+  left: 0
+  right: 0
+  margin: auto
   @media screen and (max-width: 1024px)
     width: 50%
   @media screen and (max-width: 612px)
