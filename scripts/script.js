@@ -31,7 +31,7 @@ $(document).ready(function() {
         $('#results').text("")
         break;
     };
-    $('#results').animate({border: '#2CC67B'}, 'fast').delay(10).animate({borderColor: '#2CC67B'}, 'slow');
+    $('#results').animate({border: '#2CC67B'}, 'fast').delay(05).animate({borderColor: '#2CC67B'}, 'slow');
   });
   $('#results').focus(function() {
     var $this = $(this);
