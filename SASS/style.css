@@ -59,18 +59,20 @@ button {
 .dropdown-menu {
   width: 100%; }
 
-#main:before {
-  content: "";
-  display: inline-block;
-  height: 100%;
-  vertical-align: middle;
-  margin-right: -0.25em; }
+#fix {
+  position: absolute;
+  top: 0;
+  display: block;
+  height: 10%;
+  width: 100%;
+  margin: 0;
+  background-color: #00ff00; }
 
 #container {
   width: 35%;
   margin: auto;
-  display: inline-block;
-  vertical-align: middle; }
+  display: block;
+  position: relative; }
   @media screen and (max-width: 1024px) {
     #container {
       width: 50%; } }
