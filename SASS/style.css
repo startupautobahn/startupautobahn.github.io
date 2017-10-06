@@ -61,7 +61,7 @@ button {
 
 #fix {
   position: absolute;
-  top: 0;
+  top: 50;
   display: block;
   height: 10%;
   width: 100%;
