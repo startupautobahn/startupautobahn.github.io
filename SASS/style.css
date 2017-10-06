@@ -1,151 +1,58 @@
-/* Variables */
-body {
-  font-family: OpenSans, SansSerif; }
+/*
+Error: Invalid CSS after "none": expected expression (e.g. 1px, bold), was ";"
+        on line 77 of /Users/aron/Documents/Github/startupautobahn.github.io/SASS/style.sass
 
-hr {
-  border: 1px solid #EEEEEE;
-  margin: 0px !important; }
+72:   top: 0
+73:   display: block
+74:   height: 10%
+75:   width: 100%
+76:   margin: 0
+77:   background-color: none;
+78: 
+79: #container
+80:   width: 35%
+81:   margin: auto
+82:   display: block
 
-textarea, input, button {
-  outline: none; }
-
-textarea {
-  font-family: OpenSans, SansSerif !important;
-  font-size: 12px !important;
-  word-break: break-all;
-  resize: none;
-  width: 100%;
-  height: 75px;
-  margin-left: -2px;
-  padding: 6px;
-  border: 1px solid #EEEEEE;
-  border-radius: 2px;
-  color: #2CC67B; }
-
-button {
-  width: 100%; }
-
-.spacer {
-  display: block;
-  margin: 0px; }
-  .spacer-large {
-    height: 30px; }
-  .spacer-small {
-    height: 15px; }
-
-.desc {
-  font-size: 10px;
-  font-weight: bold;
-  color: #273246;
-  margin: 0 0 8px 0; }
-
-.caret {
-  float: right;
-  display: inline-block;
-  vertical-align: middle;
-  margin: 8px 0 8px 0;
-  color: #273246; }
-
-.btn-group {
-  width: 100%;
-  text-align: left !important;
-  color: #273246; }
-
-.btn {
-  width: 100%;
-  text-align: left !important;
-  border: 1px solid #EEEEEE !important; }
-
-.dropdown-menu {
-  width: 100%; }
-
-#fix {
-  position: absolute;
-  top: 0;
-  display: block;
-  height: 10%;
-  width: 100%;
-  margin: 0; }
-
-#container {
-  width: 35%;
-  margin: auto;
-  display: block;
-  position: relative; }
-  @media screen and (max-width: 1024px) {
-    #container {
-      width: 50%; } }
-  @media screen and (max-width: 612px) {
-    #container {
-      width: 80%; } }
-
-#header {
-  width: 100%;
-  height: 72px;
-  background-image: url("../images/20170413-Spread-The-Word-Header.png");
-  background-repeat: no-repeat;
-  border-top-left-radius: 8px;
-  border-top-right-radius: 8px;
-  display: inline-block;
-  vertical-align: middle;
-  text-align: center; }
-
-#headline {
-  font-family: OpenSans, SansSerif;
-  font-size: 20px;
-  color: #fff;
-  text-align: center;
-  vertical-align: middle; }
-  @media screen and (max-width: 950px) {
-    #headline {
-      font-size: 14px; } }
-
-#content {
-  padding: 50px 50px 0 50px;
-  border: 2px solid #EEEEEE;
-  border-top: 0px;
-  border-bottom: 0px;
-  border-radius: 0px; }
-  @media screen and (max-width: 612px) {
-    #content {
-      padding: 30px; } }
-
-#info-text p {
-  font-family: OpenSans, SansSerif;
-  font-weight: lighter;
-  font-size: 12px;
-  color: #273246;
-  line-height: 21px;
-  margin: 0px; }
-
-#generate-btn {
-  font-family: OpenSans, SansSerif;
-  font-weight: normal;
-  font-size: 12px;
-  color: #fff;
-  letter-spacing: 0.5px;
-  background: #2CC67B;
-  border-radius: 2px;
-  border: 0px;
-  width: 100%;
-  height: 37px; }
-  #generate-btn:hover {
-    background: #02AF60; }
-  #generate-btn:active {
-    background: #039151; }
-  #generate-btn:disabled {
-    background: #EEEEEE; }
-
-#footer p {
-  font-family: OpenSans, SansSerif;
-  font-size: 8px;
-  color: #EEEEEE;
-  line-height: 21px;
-  text-align: center;
-  margin: 0px;
-  height: 30px;
-  border: 2px solid #EEEEEE;
-  border-top: 0px;
-  border-radius: 0 0 8px 8px; }
-
-/*# sourceMappingURL=style.css.map */
+Backtrace:
+/Users/aron/Documents/Github/startupautobahn.github.io/SASS/style.sass:77
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:1207:in `expected'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/script/lexer.rb:229:in `expected!'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/script/parser.rb:744:in `assert_done'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/script/parser.rb:76:in `parse'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/script/parser.rb:240:in `parse'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/script.rb:27:in `parse'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/engine.rb:1151:in `parse_script'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/engine.rb:721:in `parse_property'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/engine.rb:692:in `parse_property_or_rule'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/engine.rb:658:in `parse_line'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/engine.rb:536:in `build_tree'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/engine.rb:555:in `block in append_children'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/engine.rb:554:in `each'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/engine.rb:554:in `append_children'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/engine.rb:545:in `block in build_tree'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/engine.rb:538:in `each'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/engine.rb:538:in `build_tree'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/engine.rb:555:in `block in append_children'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/engine.rb:554:in `each'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/engine.rb:554:in `append_children'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/engine.rb:409:in `_to_tree'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/engine.rb:381:in `_render_with_sourcemap'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/engine.rb:298:in `render_with_sourcemap'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:209:in `each'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:473:in `on_file_changed'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:331:in `block in watch'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/vendor/listen/lib/listen/listener.rb:252:in `call'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/vendor/listen/lib/listen/listener.rb:252:in `on_change'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/vendor/listen/lib/listen/adapters/polling.rb:48:in `call'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/vendor/listen/lib/listen/adapters/polling.rb:48:in `poll_changed_directories'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"none\": expected expression (e.g. 1px, bold), was \";\"\A         on line 77 of /Users/aron/Documents/Github/startupautobahn.github.io/SASS/style.sass\A \A 72:   top: 0\A 73:   display: block\A 74:   height: 10%\A 75:   width: 100%\A 76:   margin: 0\A 77:   background-color: none;\A 78: \A 79: #container\A 80:   width: 35%\A 81:   margin: auto\A 82:   display: block"; }
